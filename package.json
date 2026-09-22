@@ -1,0 +1,45 @@
+{
+  "name": "dota2-helper-jev",
+  "version": "0.1.0",
+  "description": "Dota 2 helper overlay (POC) \u2014 GSI + curated data + TypeSafe Jev",
+  "private": true,
+  "type": "module",
+  "main": "./out/main/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "tsc --noEmit -p tsconfig.node.json && tsc --noEmit -p tsconfig.web.json && electron-vite build",
+    "start": "electron-vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.node.json && tsc --noEmit -p tsconfig.web.json",
+    "setup:gsi": "tsx scripts/write-gsi-cfg.ts",
+    "capture": "tsx scripts/capture.ts",
+    "replay": "tsx scripts/replay.ts",
+    "fixture:synth": "tsx scripts/make-synthetic-fixture.ts",
+    "data:fetch": "tsx scripts/fetch-static-data.ts",
+    "data:coverage": "tsx scripts/tag-coverage.ts",
+    "gsi:summarize": "tsx scripts/summarize-fixture.ts",
+    "advise:demo": "tsx scripts/advise-demo.ts",
+    "state": "tsx scripts/state-dump.ts",
+    "jev:log": "tsx scripts/jev-log.ts"
+  },
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.6.0",
+    "dotenv": "^16.4.5",
+    "electron-updater": "^6.3.9"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "^33.3.0",
+    "electron-vite": "^2.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11"
+  }
+}

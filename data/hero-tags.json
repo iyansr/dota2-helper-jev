@@ -1,0 +1,1110 @@
+{
+ "_comment": "CURATED, not generated. `threat` is sent to Jev verbatim, so write it as a clause that reads well inside a question and never name the hero in it. `tags` must come from THREAT_TAGS in src/main/advise/tags.ts. Uncurated heroes degrade to popularity-only ranking and are never sent to the model (plan M3.2).",
+ "npc_dota_hero_riki": {
+  "threat": "permanent invisibility, silence on a smoke cloud, and attacks that hit from behind",
+  "tags": [
+   "invisibility",
+   "physical",
+   "silence",
+   "high-mobility"
+  ],
+  "kit": "turns invisible to reposition behind a target and relies on attacking from the back, with a smoke that silences",
+  "wants": [
+   "attack-damage",
+   "attack-speed",
+   "lifesteal",
+   "mobility",
+   "survivability"
+  ]
+ },
+ "npc_dota_hero_bounty_hunter": {
+  "threat": "permanent invisibility, tracking that reveals and slows, and burst damage from stealth",
+  "tags": [
+   "invisibility",
+   "physical",
+   "slow",
+   "high-mobility"
+  ],
+  "kit": "opens from invisibility with a stun and tracks one hero for team-wide gold and vision",
+  "wants": [
+   "mobility",
+   "attack-damage",
+   "mana-sustain",
+   "survivability",
+   "attack-speed"
+  ]
+ },
+ "npc_dota_hero_clinkz": {
+  "threat": "invisibility while moving and very high single-target attack damage",
+  "tags": [
+   "invisibility",
+   "physical",
+   "high-mobility"
+  ],
+  "kit": "attacks from invisibility alongside summoned archers, killing single targets quickly",
+  "wants": [
+   "attack-speed",
+   "attack-damage",
+   "critical-strike",
+   "survivability",
+   "summon-scaling"
+  ]
+ },
+ "npc_dota_hero_nyx_assassin": {
+  "threat": "invisibility while stationary, a stun, and burst damage that scales with the target's intelligence",
+  "tags": [
+   "invisibility",
+   "magic-burst",
+   "disable"
+  ],
+  "kit": "waits invisible and stationary, then stuns and bursts a high-intelligence target in the back line",
+  "wants": [
+   "blink",
+   "mana-sustain",
+   "cooldown-reduction",
+   "survivability",
+   "spell-amplification"
+  ]
+ },
+ "npc_dota_hero_lion": {
+  "threat": "two long single-target disables, a mana drain, and a large single-target magic burst",
+  "tags": [
+   "disable",
+   "magic-burst",
+   "mana-burn"
+  ],
+  "kit": "chains two single-target disables into a large magic burst, and has to land them from range",
+  "wants": [
+   "blink",
+   "cast-range",
+   "mana-sustain",
+   "cooldown-reduction",
+   "spell-amplification",
+   "survivability"
+  ]
+ },
+ "npc_dota_hero_lina": {
+  "threat": "a long stun and very large single-target magic burst from range",
+  "tags": [
+   "magic-burst",
+   "disable",
+   "ranged-poke"
+  ],
+  "kit": "gains attack speed from casting, and lands a long stun before a very large single-target nuke",
+  "wants": [
+   "cast-range",
+   "mana-sustain",
+   "spell-amplification",
+   "cooldown-reduction",
+   "attack-speed",
+   "survivability"
+  ]
+ },
+ "npc_dota_hero_zuus": {
+  "threat": "global magic damage that ignores position, and heavy area magic damage in fights",
+  "tags": [
+   "magic-burst",
+   "aoe-teamfight",
+   "ranged-poke"
+  ],
+  "kit": "casts repeatedly through a fight for area magic damage and finishes wounded heroes globally",
+  "wants": [
+   "mana-sustain",
+   "mana-pool",
+   "spell-amplification",
+   "cooldown-reduction",
+   "cast-range",
+   "survivability"
+  ]
+ },
+ "npc_dota_hero_crystal_maiden": {
+  "threat": "long slows, a single-target freeze, and a large channelled area ultimate",
+  "tags": [
+   "disable",
+   "slow",
+   "channeled-ultimate",
+   "aoe-teamfight"
+  ],
+  "kit": "gives the team mana regeneration and channels a long area ultimate that must not be interrupted",
+  "wants": [
+   "survivability",
+   "blink",
+   "cast-range",
+   "cooldown-reduction",
+   "spell-amplification",
+   "status-resistance"
+  ]
+ },
+ "npc_dota_hero_witch_doctor": {
+  "threat": "a bouncing stun, area damage over time, and a channelled single-target ultimate that kills quickly",
+  "tags": [
+   "disable",
+   "channeled-ultimate",
+   "damage-over-time",
+   "healing"
+  ],
+  "kit": "channels a single-target ultimate that kills very quickly, and has to survive the channel",
+  "wants": [
+   "survivability",
+   "blink",
+   "cast-range",
+   "status-resistance",
+   "spell-amplification",
+   "cooldown-reduction"
+  ]
+ },
+ "npc_dota_hero_bane": {
+  "threat": "a channelled single-target disable, a long sleep, and a single-target nightmare",
+  "tags": [
+   "disable",
+   "channeled-ultimate",
+   "silence"
+  ],
+  "kit": "channels a single-target hold and needs to stay alive while keeping one hero out of the fight",
+  "wants": [
+   "survivability",
+   "cast-range",
+   "mana-sustain",
+   "status-resistance",
+   "cooldown-reduction"
+  ]
+ },
+ "npc_dota_hero_shadow_shaman": {
+  "threat": "two long single-target disables and summoned towers that push structures fast",
+  "tags": [
+   "disable",
+   "summons",
+   "channeled-ultimate"
+  ],
+  "kit": "chains two long disables and summons towers to push, and has to get into cast range safely",
+  "wants": [
+   "blink",
+   "cast-range",
+   "mana-sustain",
+   "cooldown-reduction",
+   "survivability"
+  ]
+ },
+ "npc_dota_hero_enigma": {
+  "threat": "a channelled ultimate that holds a whole team in place, plus summoned units that farm and push",
+  "tags": [
+   "channeled-ultimate",
+   "aoe-teamfight",
+   "summons",
+   "disable"
+  ],
+  "kit": "gets into position unseen and channels an ultimate that has to catch several heroes at once",
+  "wants": [
+   "blink",
+   "survivability",
+   "status-resistance",
+   "cooldown-reduction",
+   "mana-sustain"
+  ]
+ },
+ "npc_dota_hero_faceless_void": {
+  "threat": "an area time stop that freezes everyone inside it, and very high attack damage with evasion",
+  "tags": [
+   "disable",
+   "aoe-teamfight",
+   "physical",
+   "evasion"
+  ],
+  "kit": "drops an area time stop that must land on several heroes, then attacks freely inside it",
+  "wants": [
+   "blink",
+   "attack-speed",
+   "attack-damage",
+   "lifesteal",
+   "cooldown-reduction"
+  ]
+ },
+ "npc_dota_hero_tidehunter": {
+  "threat": "a long area stun that starts fights, and very high physical resilience",
+  "tags": [
+   "disable",
+   "aoe-teamfight",
+   "initiation",
+   "tanky"
+  ],
+  "kit": "starts fights with a long area stun that has to catch the enemy grouped together",
+  "wants": [
+   "blink",
+   "survivability",
+   "armor",
+   "cooldown-reduction",
+   "mana-sustain"
+  ]
+ },
+ "npc_dota_hero_axe": {
+  "threat": "a forced taunt that pulls several heroes in, and an execute that kills damaged targets outright",
+  "tags": [
+   "initiation",
+   "disable",
+   "aoe-teamfight",
+   "tanky"
+  ],
+  "kit": "taunts several heroes at once and has to stand among them long enough to survive it",
+  "wants": [
+   "blink",
+   "survivability",
+   "armor",
+   "cooldown-reduction",
+   "status-resistance"
+  ]
+ },
+ "npc_dota_hero_magnataur": {
+  "threat": "an area stun that drags heroes together and a large attack-damage buff for allies",
+  "tags": [
+   "initiation",
+   "disable",
+   "aoe-teamfight"
+  ],
+  "kit": "drags heroes together with an area stun and buffs allied attack damage",
+  "wants": [
+   "blink",
+   "survivability",
+   "cooldown-reduction",
+   "mana-sustain",
+   "status-resistance"
+  ]
+ },
+ "npc_dota_hero_earthshaker": {
+  "threat": "chained area stuns and burst area damage that scales with how many heroes are grouped",
+  "tags": [
+   "initiation",
+   "disable",
+   "aoe-teamfight",
+   "magic-burst"
+  ],
+  "kit": "sets up with a fissure and a blind, then lands an area ultimate whose damage scales with how many heroes it catches",
+  "wants": [
+   "blink",
+   "cooldown-reduction",
+   "spell-amplification",
+   "mana-sustain",
+   "survivability",
+   "status-resistance"
+  ]
+ },
+ "npc_dota_hero_legion_commander": {
+  "threat": "a forced one-on-one duel that cannot be escaped and grows their damage permanently",
+  "tags": [
+   "initiation",
+   "disable",
+   "physical"
+  ],
+  "kit": "forces a duel that cannot be escaped and grows permanent damage from winning it",
+  "wants": [
+   "blink",
+   "attack-damage",
+   "survivability",
+   "lifesteal",
+   "status-resistance"
+  ]
+ },
+ "npc_dota_hero_pudge": {
+  "threat": "a long-range hook that drags a hero out of position, followed by a channelled hold",
+  "tags": [
+   "initiation",
+   "disable",
+   "channeled-ultimate",
+   "tanky"
+  ],
+  "kit": "hooks one hero out of position from long range and holds them there",
+  "wants": [
+   "survivability",
+   "cast-range",
+   "cooldown-reduction",
+   "mana-sustain",
+   "status-resistance"
+  ]
+ },
+ "npc_dota_hero_rattletrap": {
+  "threat": "a global initiation that isolates one hero inside a cage",
+  "tags": [
+   "initiation",
+   "disable",
+   "tanky"
+  ],
+  "kit": "initiates from across the map and locks one hero in a cage away from their allies",
+  "wants": [
+   "survivability",
+   "cooldown-reduction",
+   "mana-sustain",
+   "armor",
+   "status-resistance"
+  ]
+ },
+ "npc_dota_hero_night_stalker": {
+  "threat": "silence and a blind, with a large power spike that makes night-time fights very dangerous",
+  "tags": [
+   "silence",
+   "initiation",
+   "physical"
+  ],
+  "kit": "silences and blinds, and is far stronger at night when it has to start the fights",
+  "wants": [
+   "attack-speed",
+   "attack-damage",
+   "mobility",
+   "survivability",
+   "lifesteal"
+  ]
+ },
+ "npc_dota_hero_silencer": {
+  "threat": "a global silence and a passive that drains intelligence permanently",
+  "tags": [
+   "silence",
+   "aoe-teamfight",
+   "ranged-poke"
+  ],
+  "kit": "silences the whole enemy team globally and steals intelligence from kills",
+  "wants": [
+   "cast-range",
+   "mana-sustain",
+   "survivability",
+   "spell-amplification",
+   "cooldown-reduction"
+  ]
+ },
+ "npc_dota_hero_antimage": {
+  "threat": "short-cooldown blinks, mana burn on every attack, and very fast farming into a late-game power spike",
+  "tags": [
+   "blink-escape",
+   "high-mobility",
+   "mana-burn",
+   "physical"
+  ],
+  "kit": "blinks constantly, burns mana on every attack, and farms fast toward a late-game spike",
+  "wants": [
+   "farming-speed",
+   "attack-speed",
+   "attack-damage",
+   "lifesteal",
+   "survivability",
+   "mobility"
+  ]
+ },
+ "npc_dota_hero_phantom_assassin": {
+  "threat": "a blink strike, heavy evasion, and critical strikes that delete a hero in two or three attacks",
+  "tags": [
+   "physical",
+   "evasion",
+   "high-mobility",
+   "passive-reliant"
+  ],
+  "kit": "blinks onto a target and kills it with critical strikes in two or three attacks",
+  "wants": [
+   "attack-damage",
+   "critical-strike",
+   "attack-speed",
+   "lifesteal",
+   "survivability"
+  ]
+ },
+ "npc_dota_hero_juggernaut": {
+  "threat": "a spinning blade that is immune to magic, a healing ward, and a channelled untargetable attack",
+  "tags": [
+   "physical",
+   "healing",
+   "channeled-ultimate",
+   "high-mobility"
+  ],
+  "kit": "spins immune to magic, drops a healing ward, and channels an untargetable flurry of attacks",
+  "wants": [
+   "attack-speed",
+   "attack-damage",
+   "lifesteal",
+   "critical-strike",
+   "cooldown-reduction",
+   "mobility"
+  ]
+ },
+ "npc_dota_hero_slark": {
+  "threat": "escapes that remove debuffs, permanent stat stealing, and invisibility with regeneration out of vision",
+  "tags": [
+   "physical",
+   "invisibility",
+   "high-mobility",
+   "blink-escape"
+  ],
+  "kit": "removes debuffs while escaping, steals stats on hits, and regenerates out of enemy vision",
+  "wants": [
+   "attack-speed",
+   "attack-damage",
+   "lifesteal",
+   "survivability",
+   "mobility"
+  ]
+ },
+ "npc_dota_hero_ursa": {
+  "threat": "stacking attack damage that melts single targets and Roshan very early",
+  "tags": [
+   "physical",
+   "tanky",
+   "passive-reliant"
+  ],
+  "kit": "stacks damage on a single target with successive attacks and takes Roshan very early",
+  "wants": [
+   "attack-speed",
+   "survivability",
+   "lifesteal",
+   "armor",
+   "mobility"
+  ]
+ },
+ "npc_dota_hero_bloodseeker": {
+  "threat": "a silence that damages over time, a movement trap, and pursuit of low-health heroes across the map",
+  "tags": [
+   "silence",
+   "physical",
+   "damage-over-time",
+   "high-mobility"
+  ],
+  "kit": "silences with damage over time and runs down wounded heroes across the map",
+  "wants": [
+   "attack-speed",
+   "attack-damage",
+   "lifesteal",
+   "mobility",
+   "survivability"
+  ]
+ },
+ "npc_dota_hero_sniper": {
+  "threat": "long attack range that punishes from outside the fight, and a global finishing shot",
+  "tags": [
+   "physical",
+   "ranged-poke",
+   "slow"
+  ],
+  "kit": "attacks from far outside the fight and finishes wounded heroes globally",
+  "wants": [
+   "attack-speed",
+   "attack-damage",
+   "critical-strike",
+   "survivability",
+   "mobility"
+  ]
+ },
+ "npc_dota_hero_drow_ranger": {
+  "threat": "long-range physical damage, a silence, and a passive that lowers the enemy team's armour",
+  "tags": [
+   "physical",
+   "ranged-poke",
+   "silence",
+   "armor-reduction"
+  ],
+  "kit": "attacks from long range behind an agility aura, and is weak once enemies close the gap",
+  "wants": [
+   "attack-speed",
+   "attack-damage",
+   "survivability",
+   "mobility",
+   "critical-strike"
+  ]
+ },
+ "npc_dota_hero_luna": {
+  "threat": "bouncing attacks that clear groups, and a large area magic burst at night",
+  "tags": [
+   "physical",
+   "aoe-teamfight",
+   "magic-burst"
+  ],
+  "kit": "bounces attacks between grouped units and casts a large area nuke at night",
+  "wants": [
+   "attack-speed",
+   "attack-damage",
+   "lifesteal",
+   "survivability",
+   "mobility"
+  ]
+ },
+ "npc_dota_hero_spectre": {
+  "threat": "global joins to any fight, illusions that attack alongside them, and damage reflected back at attackers",
+  "tags": [
+   "illusions",
+   "physical",
+   "high-mobility",
+   "tanky"
+  ],
+  "kit": "joins any fight globally, reflects damage back at attackers, and scales on items rather than spells",
+  "wants": [
+   "farming-speed",
+   "attack-damage",
+   "lifesteal",
+   "survivability",
+   "attack-speed"
+  ]
+ },
+ "npc_dota_hero_terrorblade": {
+  "threat": "strong illusions, a health swap that instantly puts a hero near death, and very high attack damage",
+  "tags": [
+   "illusions",
+   "physical",
+   "magic-burst"
+  ],
+  "kit": "creates strong illusions and swaps health with a hero to put them near death",
+  "wants": [
+   "illusion-scaling",
+   "attack-damage",
+   "attack-speed",
+   "survivability",
+   "mobility"
+  ]
+ },
+ "npc_dota_hero_naga_siren": {
+  "threat": "four illusions that farm and push lanes, plus an area sleep that resets fights",
+  "tags": [
+   "illusions",
+   "disable",
+   "aoe-teamfight",
+   "channeled-ultimate"
+  ],
+  "kit": "farms several lanes with four illusions and resets fights with an area sleep",
+  "wants": [
+   "illusion-scaling",
+   "farming-speed",
+   "attack-damage",
+   "attack-speed",
+   "survivability"
+  ]
+ },
+ "npc_dota_hero_phantom_lancer": {
+  "threat": "an endless stream of illusions that are hard to tell apart from the hero",
+  "tags": [
+   "illusions",
+   "physical",
+   "high-mobility"
+  ],
+  "kit": "floods a fight with illusions that are hard to tell apart from the hero",
+  "wants": [
+   "illusion-scaling",
+   "attack-speed",
+   "attack-damage",
+   "survivability",
+   "mobility"
+  ]
+ },
+ "npc_dota_hero_meepo": {
+  "threat": "several controllable copies that gang up on one hero and farm several lanes at once",
+  "tags": [
+   "illusions",
+   "summons",
+   "physical",
+   "disable"
+  ],
+  "kit": "controls several copies that farm separately but must all arrive on one target together",
+  "wants": [
+   "farming-speed",
+   "attack-speed",
+   "survivability",
+   "mobility",
+   "attack-damage"
+  ]
+ },
+ "npc_dota_hero_broodmother": {
+  "threat": "many spiderlings that push lanes and swarm heroes, backed by webs that give speed and vision",
+  "tags": [
+   "summons",
+   "physical",
+   "high-mobility"
+  ],
+  "kit": "pushes with spiderlings and fights inside webs that grant speed and vision",
+  "wants": [
+   "summon-scaling",
+   "attack-speed",
+   "lifesteal",
+   "survivability",
+   "attack-damage"
+  ]
+ },
+ "npc_dota_hero_beastmaster": {
+  "threat": "summoned units that push and scout, plus a single-target stun that lasts a long time",
+  "tags": [
+   "summons",
+   "disable",
+   "initiation"
+  ],
+  "kit": "commands summoned units for pushing and scouting, and lands a long single-target stun",
+  "wants": [
+   "summon-scaling",
+   "mana-sustain",
+   "cooldown-reduction",
+   "survivability",
+   "blink"
+  ]
+ },
+ "npc_dota_hero_invoker": {
+  "threat": "a wide spell set covering area stuns, heavy magic burst, and wave clear from long range",
+  "tags": [
+   "magic-burst",
+   "aoe-teamfight",
+   "disable",
+   "ranged-poke"
+  ],
+  "kit": "combines a wide spell set, needing mana and short cooldowns to use several of them in one fight",
+  "wants": [
+   "mana-sustain",
+   "mana-pool",
+   "cooldown-reduction",
+   "spell-amplification",
+   "cast-range",
+   "survivability"
+  ]
+ },
+ "npc_dota_hero_queenofpain": {
+  "threat": "repeated blinks, a scream that silences, and high area magic burst",
+  "tags": [
+   "magic-burst",
+   "high-mobility",
+   "silence",
+   "blink-escape"
+  ],
+  "kit": "blinks in and out repeatedly while dealing area magic damage and silencing",
+  "wants": [
+   "spell-amplification",
+   "mana-sustain",
+   "cooldown-reduction",
+   "survivability",
+   "cast-range"
+  ]
+ },
+ "npc_dota_hero_storm_spirit": {
+  "threat": "unlimited repositioning while mana lasts, with a stun and steady magic damage",
+  "tags": [
+   "magic-burst",
+   "high-mobility",
+   "disable",
+   "blink-escape"
+  ],
+  "kit": "repositions endlessly as long as mana lasts, spending it to both chase and escape",
+  "wants": [
+   "mana-pool",
+   "mana-sustain",
+   "spell-amplification",
+   "cooldown-reduction",
+   "survivability"
+  ]
+ },
+ "npc_dota_hero_templar_assassin": {
+  "threat": "damage blocked from ranged attacks, invisible traps, and very high burst physical damage",
+  "tags": [
+   "physical",
+   "high-mobility",
+   "passive-reliant"
+  ],
+  "kit": "blocks ranged damage, plants invisible traps, and bursts single targets down",
+  "wants": [
+   "attack-damage",
+   "attack-speed",
+   "survivability",
+   "mobility",
+   "critical-strike"
+  ]
+ },
+ "npc_dota_hero_necrolyte": {
+  "threat": "sustained healing, heavy magic damage in fights, and an ultimate that stops a hero from respawning",
+  "tags": [
+   "healing",
+   "magic-burst",
+   "tanky",
+   "aoe-teamfight"
+  ],
+  "kit": "heals through fights, deals heavy magic damage, and stops a killed hero respawning",
+  "wants": [
+   "survivability",
+   "spell-amplification",
+   "mana-sustain",
+   "cooldown-reduction",
+   "magic-resistance"
+  ]
+ },
+ "npc_dota_hero_omniknight": {
+  "threat": "a heal that also removes debuffs and an ultimate that makes allies immune to physical damage",
+  "tags": [
+   "healing",
+   "tanky"
+  ],
+  "kit": "heals and dispels allies and makes them immune to physical damage",
+  "wants": [
+   "mana-sustain",
+   "cooldown-reduction",
+   "survivability",
+   "cast-range",
+   "save-ally"
+  ]
+ },
+ "npc_dota_hero_dazzle": {
+  "threat": "an ability that stops an ally dying for several seconds, plus large armour swings",
+  "tags": [
+   "healing",
+   "armor-reduction"
+  ],
+  "kit": "stops an ally dying for several seconds and swings armour heavily in a fight",
+  "wants": [
+   "cast-range",
+   "mana-sustain",
+   "cooldown-reduction",
+   "survivability",
+   "save-ally"
+  ]
+ },
+ "npc_dota_hero_huskar": {
+  "threat": "damage that scales as their own health drops, a single-target magic immunity, and long-range attacks",
+  "tags": [
+   "tanky",
+   "healing",
+   "physical",
+   "damage-over-time"
+  ],
+  "kit": "fights deliberately at low health, where its damage scales up but it is easy to kill",
+  "wants": [
+   "survivability",
+   "attack-speed",
+   "magic-resistance",
+   "lifesteal",
+   "status-resistance"
+  ]
+ },
+ "npc_dota_hero_skeleton_king": {
+  "threat": "a second life after dying, a stun, and skeletons that add physical damage",
+  "tags": [
+   "tanky",
+   "physical",
+   "disable",
+   "summons"
+  ],
+  "kit": "comes back to life once after dying, stuns, and adds damage with skeletons",
+  "wants": [
+   "attack-damage",
+   "attack-speed",
+   "lifesteal",
+   "survivability",
+   "summon-scaling"
+  ]
+ },
+ "npc_dota_hero_sven": {
+  "threat": "a stun through units and a massive temporary attack-damage buff for the whole team",
+  "tags": [
+   "physical",
+   "disable",
+   "initiation",
+   "aoe-teamfight"
+  ],
+  "kit": "stuns through units and gives the whole team a large temporary attack-damage buff",
+  "wants": [
+   "blink",
+   "attack-speed",
+   "attack-damage",
+   "lifesteal",
+   "survivability"
+  ]
+ },
+ "npc_dota_hero_medusa": {
+  "threat": "a very large mana pool that absorbs damage, attacks that split to nearby heroes, and an area stone gaze",
+  "tags": [
+   "physical",
+   "tanky",
+   "aoe-teamfight",
+   "disable"
+  ],
+  "kit": "absorbs damage into a very large mana pool and splits attacks between nearby heroes",
+  "wants": [
+   "mana-pool",
+   "attack-speed",
+   "attack-damage",
+   "survivability",
+   "lifesteal"
+  ]
+ },
+ "npc_dota_hero_alchemist": {
+  "threat": "extremely fast farming into an early power spike, with an acid spray that strips armour",
+  "tags": [
+   "physical",
+   "tanky",
+   "armor-reduction"
+  ],
+  "kit": "farms extremely fast and spikes early on items bought well ahead of schedule",
+  "wants": [
+   "farming-speed",
+   "attack-speed",
+   "attack-damage",
+   "survivability",
+   "lifesteal"
+  ]
+ },
+ "npc_dota_hero_tinker": {
+  "threat": "repeated long-range magic bursts with resetting cooldowns and constant repositioning",
+  "tags": [
+   "magic-burst",
+   "ranged-poke",
+   "high-mobility",
+   "blink-escape"
+  ],
+  "kit": "resets its own cooldowns to cast the same nukes again and again from long range",
+  "wants": [
+   "cooldown-reduction",
+   "mana-pool",
+   "mana-sustain",
+   "spell-amplification",
+   "survivability",
+   "blink"
+  ]
+ },
+ "npc_dota_hero_weaver": {
+  "threat": "invisibility, a time rewind that undoes their death, and attacks that strip armour",
+  "tags": [
+   "invisibility",
+   "physical",
+   "armor-reduction",
+   "high-mobility"
+  ],
+  "kit": "rewinds its own death, strips armour on attacks, and slips in and out invisible",
+  "wants": [
+   "attack-speed",
+   "attack-damage",
+   "survivability",
+   "mobility",
+   "lifesteal"
+  ]
+ },
+ "npc_dota_hero_mirana": {
+  "threat": "a long-range stun, a leap, and team-wide invisibility that enables ambushes",
+  "tags": [
+   "invisibility",
+   "disable",
+   "high-mobility",
+   "physical"
+  ],
+  "kit": "lands a long-range stun, leaps out of danger, and turns the team invisible",
+  "wants": [
+   "attack-damage",
+   "attack-speed",
+   "mana-sustain",
+   "cast-range",
+   "survivability"
+  ]
+ },
+ "npc_dota_hero_nevermore": {
+  "threat": "stacking area magic bursts from range and a large attack-damage aura that lowers enemy damage",
+  "tags": [
+   "magic-burst",
+   "ranged-poke",
+   "aoe-teamfight",
+   "physical"
+  ],
+  "kit": "stacks area magic bursts from range and lowers the attack damage of nearby enemies",
+  "wants": [
+   "attack-speed",
+   "attack-damage",
+   "spell-amplification",
+   "mobility",
+   "survivability"
+  ]
+ },
+ "npc_dota_hero_venomancer": {
+  "threat": "heavy slowing poison over time and plague wards that give vision and chip damage",
+  "tags": [
+   "damage-over-time",
+   "slow",
+   "summons",
+   "ranged-poke"
+  ],
+  "kit": "spreads slowing poison and plants wards for vision and steady chip damage",
+  "wants": [
+   "cast-range",
+   "mana-sustain",
+   "survivability",
+   "cooldown-reduction",
+   "spell-amplification"
+  ]
+ },
+ "npc_dota_hero_viper": {
+  "threat": "a slow that stacks on every attack and damage over time that grows the longer a fight lasts",
+  "tags": [
+   "damage-over-time",
+   "slow",
+   "physical",
+   "ranged-poke"
+  ],
+  "kit": "stacks slows on every attack and grinds enemies down the longer a fight lasts",
+  "wants": [
+   "attack-speed",
+   "attack-damage",
+   "survivability",
+   "magic-resistance",
+   "mobility"
+  ]
+ },
+ "npc_dota_hero_batrider": {
+  "threat": "an ultimate that drags one hero into their team, with damage over time and forced turning",
+  "tags": [
+   "initiation",
+   "disable",
+   "damage-over-time",
+   "high-mobility"
+  ],
+  "kit": "drags one hero back into its team while burning them, and has to survive the trip",
+  "wants": [
+   "blink",
+   "survivability",
+   "mana-sustain",
+   "cooldown-reduction",
+   "status-resistance"
+  ]
+ },
+ "npc_dota_hero_sand_king": {
+  "threat": "a channelled area stun followed by heavy area magic damage, plus invisibility between fights",
+  "tags": [
+   "channeled-ultimate",
+   "aoe-teamfight",
+   "disable",
+   "invisibility"
+  ],
+  "kit": "arrives unseen and channels an area stun, following it with heavy area damage",
+  "wants": [
+   "blink",
+   "survivability",
+   "spell-amplification",
+   "cooldown-reduction",
+   "mana-sustain",
+   "status-resistance"
+  ]
+ },
+ "npc_dota_hero_leshrac": {
+  "threat": "constant area magic damage that melts grouped heroes and structures alike",
+  "tags": [
+   "magic-burst",
+   "aoe-teamfight",
+   "damage-over-time"
+  ],
+  "kit": "deals constant area magic damage to grouped heroes and to structures",
+  "wants": [
+   "spell-amplification",
+   "mana-sustain",
+   "mana-pool",
+   "survivability",
+   "cooldown-reduction"
+  ]
+ },
+ "npc_dota_hero_life_stealer": {
+  "threat": "magic immunity on demand, heavy lifesteal, and an unavoidable attack-speed chase",
+  "tags": [
+   "physical",
+   "healing",
+   "tanky",
+   "slow"
+  ],
+  "kit": "turns magic immune on demand, heals from its attacks, and chases without letting go",
+  "wants": [
+   "attack-speed",
+   "attack-damage",
+   "lifesteal",
+   "survivability",
+   "armor"
+  ]
+ },
+ "npc_dota_hero_ember_spirit": {
+  "threat": "constant repositioning between remnants, magic immunity on demand, and area chain damage",
+  "tags": [
+   "high-mobility",
+   "physical",
+   "aoe-teamfight",
+   "blink-escape"
+  ],
+  "kit": "moves between remnants, goes magic immune, and chains damage across a whole fight",
+  "wants": [
+   "attack-damage",
+   "attack-speed",
+   "spell-amplification",
+   "mana-sustain",
+   "cooldown-reduction",
+   "survivability"
+  ]
+ },
+ "npc_dota_hero_puck": {
+  "threat": "many escapes, a silencing orb, and an area ultimate that stuns and interrupts",
+  "tags": [
+   "high-mobility",
+   "silence",
+   "disable",
+   "blink-escape"
+  ],
+  "kit": "escapes repeatedly and lands an area ultimate that stuns and interrupts",
+  "wants": [
+   "mana-sustain",
+   "cooldown-reduction",
+   "spell-amplification",
+   "survivability",
+   "blink"
+  ]
+ },
+ "npc_dota_hero_pugna": {
+  "threat": "structure and hero burn, a ward that amplifies magic damage, and a channelled life drain",
+  "tags": [
+   "magic-burst",
+   "channeled-ultimate",
+   "healing",
+   "ranged-poke"
+  ],
+  "kit": "burns structures and heroes, and channels a life drain that must not be broken",
+  "wants": [
+   "cast-range",
+   "mana-sustain",
+   "spell-amplification",
+   "cooldown-reduction",
+   "survivability"
+  ]
+ },
+ "npc_dota_hero_undying": {
+  "threat": "stolen strength, a zombie swarm that slows heavily, and constant lane pressure",
+  "tags": [
+   "summons",
+   "slow",
+   "tanky",
+   "damage-over-time"
+  ],
+  "kit": "steals strength in fights, slows with a zombie swarm, and pressures the lane constantly",
+  "wants": [
+   "survivability",
+   "armor",
+   "cooldown-reduction",
+   "mana-sustain",
+   "summon-scaling"
+  ]
+ },
+ "npc_dota_hero_oracle": {
+  "threat": "an ability that makes an ally briefly immortal and immune to damage, undoing burst kills",
+  "tags": [
+   "healing",
+   "silence",
+   "disable"
+  ],
+  "kit": "makes an ally briefly immune to damage and death, undoing an enemy burst kill",
+  "wants": [
+   "cast-range",
+   "mana-sustain",
+   "cooldown-reduction",
+   "survivability",
+   "save-ally"
+  ]
+ },
+ "npc_dota_hero_winter_wyvern": {
+  "threat": "a large healing shield and an ultimate that turns one hero's allies against them",
+  "tags": [
+   "healing",
+   "disable",
+   "aoe-teamfight",
+   "channeled-ultimate"
+  ],
+  "kit": "shields an ally with a large heal and turns one hero's own allies against them",
+  "wants": [
+   "cast-range",
+   "mana-sustain",
+   "cooldown-reduction",
+   "survivability",
+   "save-ally"
+  ]
+ }
+}

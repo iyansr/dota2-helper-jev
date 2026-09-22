@@ -1,0 +1,6 @@
+{
+ "fetchedAt": "2026-09-22T08:11:28.726Z",
+ "source": "https://api.opendota.com",
+ "heroes": 127,
+ "note": "Regenerate after every gameplay patch — item popularity and matchups both move."
+}

@@ -1,0 +1,840 @@
+{
+ "_comment": "CURATED, not generated. `effect` is sent to Jev verbatim — describe what the item does, never when to buy it, or the model is just reading our opinion back. `counters` must come from THREAT_TAGS in src/main/advise/tags.ts. `situational: true` means the item only enters the candidate list when a matching enemy tag is present (plan M4).",
+ "item_black_king_bar": {
+  "effect": "grants immunity to most spells and disables for a few seconds, on a cooldown that shortens with use",
+  "counters": [
+   "magic-burst",
+   "disable",
+   "silence",
+   "channeled-ultimate"
+  ],
+  "situational": false,
+  "provides": [
+   "survivability",
+   "status-resistance",
+   "attack-damage"
+  ]
+ },
+ "item_dust": {
+  "effect": "reveals nearby invisible heroes for a short time and slows them",
+  "counters": [
+   "invisibility"
+  ],
+  "situational": true,
+  "provides": []
+ },
+ "item_ward_sentry": {
+  "effect": "a stationary ward that reveals invisible units in a small area",
+  "counters": [
+   "invisibility"
+  ],
+  "situational": true,
+  "provides": []
+ },
+ "item_gem": {
+  "effect": "permanently reveals invisible units around the carrier, but drops on death",
+  "counters": [
+   "invisibility"
+  ],
+  "situational": true,
+  "provides": []
+ },
+ "item_sphere": {
+  "effect": "blocks one targeted enemy spell entirely, then recharges after a delay",
+  "counters": [
+   "disable",
+   "magic-burst",
+   "silence"
+  ],
+  "situational": true,
+  "provides": [
+   "survivability",
+   "mana-pool"
+  ]
+ },
+ "item_glimmer_cape": {
+  "effect": "turns an ally invisible and gives them a large amount of magic resistance",
+  "counters": [
+   "magic-burst",
+   "physical"
+  ],
+  "situational": true,
+  "provides": [
+   "save-ally",
+   "magic-resistance"
+  ]
+ },
+ "item_pipe": {
+  "effect": "gives the team a barrier that absorbs magic damage, and grants magic resistance",
+  "counters": [
+   "magic-burst",
+   "damage-over-time",
+   "aoe-teamfight"
+  ],
+  "situational": true,
+  "provides": [
+   "magic-resistance",
+   "survivability"
+  ]
+ },
+ "item_cloak": {
+  "effect": "a cheap item granting flat magic resistance",
+  "counters": [
+   "magic-burst"
+  ],
+  "situational": true,
+  "provides": [
+   "magic-resistance"
+  ]
+ },
+ "item_lotus_orb": {
+  "effect": "removes debuffs from an ally and reflects targeted enemy spells back at their caster",
+  "counters": [
+   "disable",
+   "silence",
+   "damage-over-time",
+   "magic-burst"
+  ],
+  "situational": true,
+  "provides": [
+   "dispel",
+   "save-ally",
+   "mana-sustain",
+   "armor"
+  ]
+ },
+ "item_aeon_disk": {
+  "effect": "automatically removes debuffs and makes the carrier briefly immune when they drop to low health",
+  "counters": [
+   "magic-burst",
+   "disable",
+   "initiation",
+   "aoe-teamfight"
+  ],
+  "situational": true,
+  "provides": [
+   "survivability",
+   "status-resistance"
+  ]
+ },
+ "item_ghost": {
+  "effect": "makes the carrier untargetable by attacks while taking extra magic damage",
+  "counters": [
+   "physical",
+   "illusions",
+   "summons"
+  ],
+  "situational": true,
+  "provides": [
+   "survivability"
+  ]
+ },
+ "item_crimson_guard": {
+  "effect": "gives the team a shield that blocks a portion of every incoming attack",
+  "counters": [
+   "physical",
+   "illusions",
+   "summons"
+  ],
+  "situational": true,
+  "provides": [
+   "armor",
+   "survivability"
+  ]
+ },
+ "item_blade_mail": {
+  "effect": "returns a share of the damage the carrier takes back to whoever dealt it",
+  "counters": [
+   "physical",
+   "magic-burst",
+   "initiation"
+  ],
+  "situational": true,
+  "provides": [
+   "survivability",
+   "attack-damage"
+  ]
+ },
+ "item_heavens_halberd": {
+  "effect": "disarms one enemy so they cannot attack for several seconds, and grants evasion",
+  "counters": [
+   "physical",
+   "evasion",
+   "illusions"
+  ],
+  "situational": true,
+  "provides": [
+   "survivability",
+   "extra-disable"
+  ]
+ },
+ "item_force_staff": {
+  "effect": "pushes the carrier or an ally a fixed distance forward, instantly",
+  "counters": [
+   "initiation",
+   "slow",
+   "channeled-ultimate"
+  ],
+  "situational": false,
+  "provides": [
+   "mobility",
+   "save-ally"
+  ]
+ },
+ "item_cyclone": {
+  "effect": "lifts a hero into the air, removing debuffs from an ally or interrupting an enemy",
+  "counters": [
+   "channeled-ultimate",
+   "disable",
+   "damage-over-time",
+   "initiation"
+  ],
+  "situational": false,
+  "provides": [
+   "dispel",
+   "save-ally",
+   "mana-sustain",
+   "extra-disable"
+  ]
+ },
+ "item_wind_waker": {
+  "effect": "lifts a hero into the air and lets the carrier steer themselves while airborne, removing debuffs",
+  "counters": [
+   "channeled-ultimate",
+   "disable",
+   "damage-over-time"
+  ],
+  "situational": true,
+  "provides": [
+   "dispel",
+   "save-ally",
+   "mobility",
+   "extra-disable"
+  ]
+ },
+ "item_spirit_vessel": {
+  "effect": "heavily reduces an enemy's healing and burns their health over time",
+  "counters": [
+   "healing",
+   "tanky"
+  ],
+  "situational": true,
+  "provides": [
+   "survivability"
+  ]
+ },
+ "item_shivas_guard": {
+  "effect": "reduces enemy attack speed nearby and cuts healing in a large blast",
+  "counters": [
+   "healing",
+   "physical",
+   "illusions"
+  ],
+  "situational": true,
+  "provides": [
+   "armor",
+   "mana-pool",
+   "wave-clear"
+  ]
+ },
+ "item_orchid": {
+  "effect": "silences one enemy for several seconds and amplifies the damage they take while silenced",
+  "counters": [
+   "channeled-ultimate",
+   "high-mobility",
+   "blink-escape",
+   "magic-burst"
+  ],
+  "situational": true,
+  "provides": [
+   "mana-sustain",
+   "attack-damage",
+   "extra-disable"
+  ]
+ },
+ "item_bloodthorn": {
+  "effect": "silences one enemy, reveals them, and makes every attack against them a guaranteed critical hit",
+  "counters": [
+   "channeled-ultimate",
+   "high-mobility",
+   "blink-escape",
+   "evasion"
+  ],
+  "situational": true,
+  "provides": [
+   "mana-sustain",
+   "attack-damage",
+   "critical-strike",
+   "extra-disable"
+  ]
+ },
+ "item_sheepstick": {
+  "effect": "turns an enemy into a harmless animal, stopping all abilities and items for several seconds",
+  "counters": [
+   "high-mobility",
+   "blink-escape",
+   "channeled-ultimate",
+   "magic-burst"
+  ],
+  "situational": true,
+  "provides": [
+   "extra-disable",
+   "mana-pool",
+   "mana-sustain"
+  ]
+ },
+ "item_abyssal_blade": {
+  "effect": "stuns one enemy through magic immunity and chains stuns from attacks",
+  "counters": [
+   "high-mobility",
+   "blink-escape",
+   "channeled-ultimate",
+   "evasion"
+  ],
+  "situational": true,
+  "provides": [
+   "extra-disable",
+   "survivability",
+   "attack-damage"
+  ]
+ },
+ "item_nullifier": {
+  "effect": "dispels an enemy, stopping invisibility and blink escapes, and slows them heavily",
+  "counters": [
+   "invisibility",
+   "blink-escape",
+   "high-mobility",
+   "healing"
+  ],
+  "situational": true,
+  "provides": [
+   "attack-damage",
+   "armor",
+   "extra-disable"
+  ]
+ },
+ "item_silver_edge": {
+  "effect": "grants invisibility and a strike that disables the target's passive abilities",
+  "counters": [
+   "passive-reliant",
+   "tanky",
+   "evasion"
+  ],
+  "situational": true,
+  "provides": [
+   "attack-damage",
+   "mobility",
+   "initiation"
+  ]
+ },
+ "item_monkey_king_bar": {
+  "effect": "attacks cannot miss and deal extra damage on hit",
+  "counters": [
+   "evasion"
+  ],
+  "situational": true,
+  "provides": [
+   "attack-damage",
+   "attack-speed"
+  ]
+ },
+ "item_mjollnir": {
+  "effect": "chain lightning on attacks and a shield that shocks attackers, clearing groups of weak units",
+  "counters": [
+   "illusions",
+   "summons",
+   "physical"
+  ],
+  "situational": true,
+  "provides": [
+   "attack-speed",
+   "wave-clear"
+  ]
+ },
+ "item_bfury": {
+  "effect": "attacks splash damage onto nearby units, and gives strong farming sustain",
+  "counters": [
+   "illusions",
+   "summons"
+  ],
+  "situational": false,
+  "provides": [
+   "farming-speed",
+   "wave-clear",
+   "attack-damage"
+  ]
+ },
+ "item_radiance": {
+  "effect": "burns nearby enemies over time and makes them miss attacks",
+  "counters": [
+   "illusions",
+   "summons",
+   "invisibility",
+   "physical"
+  ],
+  "situational": false,
+  "provides": [
+   "farming-speed",
+   "wave-clear",
+   "attack-damage"
+  ]
+ },
+ "item_manta": {
+  "effect": "creates two illusions and removes most debuffs from the carrier on use",
+  "counters": [
+   "silence",
+   "disable",
+   "damage-over-time"
+  ],
+  "situational": false,
+  "provides": [
+   "illusion-scaling",
+   "dispel",
+   "attack-speed",
+   "mobility"
+  ]
+ },
+ "item_satanic": {
+  "effect": "converts a large share of attack damage into health and removes debuffs when activated",
+  "counters": [
+   "physical",
+   "silence",
+   "damage-over-time"
+  ],
+  "situational": false,
+  "provides": [
+   "lifesteal",
+   "attack-damage",
+   "dispel",
+   "survivability"
+  ]
+ },
+ "item_heart": {
+  "effect": "a very large pool of health with strong out-of-combat regeneration",
+  "counters": [
+   "physical",
+   "magic-burst"
+  ],
+  "situational": false,
+  "provides": [
+   "survivability"
+  ]
+ },
+ "item_assault": {
+  "effect": "attack speed for the team and armour reduction for nearby enemies",
+  "counters": [
+   "physical",
+   "armor-reduction",
+   "illusions"
+  ],
+  "situational": false,
+  "provides": [
+   "attack-speed",
+   "armor"
+  ]
+ },
+ "item_solar_crest": {
+  "effect": "strips armour and accuracy from an enemy, or adds them to an ally",
+  "counters": [
+   "physical",
+   "evasion",
+   "tanky"
+  ],
+  "situational": true,
+  "provides": [
+   "armor",
+   "attack-speed",
+   "mobility"
+  ]
+ },
+ "item_hurricane_pike": {
+  "effect": "pushes the carrier and a target apart, then lets them attack from long range for a few shots",
+  "counters": [
+   "physical",
+   "initiation",
+   "slow"
+  ],
+  "situational": true,
+  "provides": [
+   "mobility",
+   "attack-speed",
+   "save-ally"
+  ]
+ },
+ "item_eternal_shroud": {
+  "effect": "converts magic damage taken into mana and grants magic resistance with a spell barrier",
+  "counters": [
+   "magic-burst",
+   "damage-over-time"
+  ],
+  "situational": true,
+  "provides": [
+   "magic-resistance",
+   "mana-sustain",
+   "survivability"
+  ]
+ },
+ "item_guardian_greaves": {
+  "effect": "heals the team, restores mana, and removes most debuffs from everyone nearby",
+  "counters": [
+   "damage-over-time",
+   "silence",
+   "magic-burst"
+  ],
+  "situational": true,
+  "provides": [
+   "dispel",
+   "save-ally",
+   "mana-sustain",
+   "armor"
+  ]
+ },
+ "item_mekansm": {
+  "effect": "instantly heals every nearby ally and grants armour",
+  "counters": [
+   "aoe-teamfight",
+   "physical"
+  ],
+  "situational": true,
+  "provides": [
+   "save-ally",
+   "armor"
+  ]
+ },
+ "item_vladmir": {
+  "effect": "an aura granting lifesteal, armour, mana regeneration and damage to the whole team",
+  "counters": [
+   "physical",
+   "damage-over-time"
+  ],
+  "situational": false,
+  "provides": [
+   "lifesteal",
+   "armor",
+   "mana-sustain",
+   "attack-damage"
+  ]
+ },
+ "item_diffusal_blade": {
+  "effect": "burns mana on every attack and applies a strong slow that also dispels",
+  "counters": [
+   "high-mobility",
+   "blink-escape",
+   "invisibility"
+  ],
+  "situational": true,
+  "provides": [
+   "extra-disable",
+   "attack-damage"
+  ]
+ },
+ "item_ethereal_blade": {
+  "effect": "makes a target immune to attacks but take much more magic damage, and bursts them",
+  "counters": [
+   "physical",
+   "passive-reliant"
+  ],
+  "situational": true,
+  "provides": [
+   "spell-amplification",
+   "save-ally"
+  ]
+ },
+ "item_veil_of_discord": {
+  "effect": "increases the magic damage every enemy in an area takes",
+  "counters": [
+   "tanky"
+  ],
+  "situational": true,
+  "provides": [
+   "spell-amplification",
+   "mana-sustain",
+   "armor"
+  ]
+ },
+ "item_smoke_of_deceit": {
+  "effect": "hides the team from enemy vision and wards until they get close to a hero",
+  "counters": [
+   "ranged-poke"
+  ],
+  "situational": true,
+  "provides": []
+ },
+ "item_blink": {
+  "effect": "teleports the carrier a short distance instantly, on a cooldown that resets out of combat",
+  "counters": [
+   "initiation",
+   "slow",
+   "ranged-poke"
+  ],
+  "situational": false,
+  "provides": [
+   "blink",
+   "initiation",
+   "mobility"
+  ]
+ },
+ "item_tpscroll": {
+  "effect": "teleports the carrier to a friendly structure after a short channel",
+  "counters": [],
+  "situational": false,
+  "provides": []
+ },
+ "item_kaya": {
+  "effect": "increases spell damage and cuts the mana cost of abilities",
+  "counters": [],
+  "provides": [
+   "spell-amplification",
+   "mana-sustain"
+  ],
+  "situational": false
+ },
+ "item_yasha": {
+  "effect": "adds attack speed and movement speed",
+  "counters": [],
+  "provides": [
+   "attack-speed",
+   "mobility"
+  ],
+  "situational": false
+ },
+ "item_yasha_and_kaya": {
+  "effect": "adds spell damage, cheaper abilities, attack speed and movement speed together",
+  "counters": [],
+  "provides": [
+   "spell-amplification",
+   "mana-sustain",
+   "attack-speed",
+   "mobility"
+  ],
+  "situational": false
+ },
+ "item_kaya_and_sange": {
+  "effect": "adds spell damage, cheaper abilities, and resistance to disables and damage",
+  "counters": [],
+  "provides": [
+   "spell-amplification",
+   "mana-sustain",
+   "status-resistance",
+   "survivability"
+  ],
+  "situational": false
+ },
+ "item_sange_and_yasha": {
+  "effect": "adds attack speed, movement speed, health, and resistance to disables",
+  "counters": [],
+  "provides": [
+   "attack-speed",
+   "mobility",
+   "status-resistance",
+   "survivability"
+  ],
+  "situational": false
+ },
+ "item_sange": {
+  "effect": "adds health and resistance to disables and slows",
+  "counters": [
+   "disable",
+   "slow"
+  ],
+  "provides": [
+   "status-resistance",
+   "survivability"
+  ],
+  "situational": false
+ },
+ "item_octarine_core": {
+  "effect": "shortens every ability cooldown and heals the carrier from the spell damage they deal",
+  "counters": [],
+  "provides": [
+   "cooldown-reduction",
+   "mana-pool",
+   "spell-amplification",
+   "survivability"
+  ],
+  "situational": false
+ },
+ "item_ultimate_scepter": {
+  "effect": "upgrades the hero's ultimate ability, often changing what it can do entirely",
+  "counters": [],
+  "provides": [
+   "ultimate-upgrade",
+   "mana-pool",
+   "survivability"
+  ],
+  "situational": false
+ },
+ "item_aether_lens": {
+  "effect": "extends the range abilities can be cast from, and adds mana and regeneration",
+  "counters": [],
+  "provides": [
+   "cast-range",
+   "mana-pool",
+   "mana-sustain"
+  ],
+  "situational": false
+ },
+ "item_refresher": {
+  "effect": "resets the cooldowns of every ability and item once, allowing a second full set of spells",
+  "counters": [],
+  "provides": [
+   "cooldown-reduction",
+   "mana-sustain",
+   "mana-pool"
+  ],
+  "situational": false
+ },
+ "item_arcane_boots": {
+  "effect": "restores mana to the carrier and every nearby ally",
+  "counters": [],
+  "provides": [
+   "mana-sustain",
+   "mana-pool"
+  ],
+  "situational": false
+ },
+ "item_phase_boots": {
+  "effect": "adds attack damage and a burst of movement speed that passes through units",
+  "counters": [],
+  "provides": [
+   "mobility",
+   "attack-damage"
+  ],
+  "situational": false
+ },
+ "item_power_treads": {
+  "effect": "adds attack speed and can be switched between attributes for mana or health",
+  "counters": [],
+  "provides": [
+   "attack-speed",
+   "mana-pool"
+  ],
+  "situational": false
+ },
+ "item_travel_boots": {
+  "effect": "teleports to any friendly unit and gives the highest movement speed",
+  "counters": [],
+  "provides": [
+   "mobility"
+  ],
+  "situational": false
+ },
+ "item_dragon_lance": {
+  "effect": "extends attack range and adds attack speed for a ranged hero",
+  "counters": [],
+  "provides": [
+   "attack-speed",
+   "cast-range"
+  ],
+  "situational": false
+ },
+ "item_desolator": {
+  "effect": "strips armour from whatever the carrier attacks and adds heavy attack damage",
+  "counters": [
+   "tanky",
+   "armor-reduction"
+  ],
+  "provides": [
+   "attack-damage"
+  ],
+  "situational": false
+ },
+ "item_maelstrom": {
+  "effect": "chains lightning off attacks, clearing creeps and speeding up farm",
+  "counters": [
+   "illusions",
+   "summons"
+  ],
+  "provides": [
+   "attack-speed",
+   "farming-speed",
+   "wave-clear"
+  ],
+  "situational": false
+ },
+ "item_greater_crit": {
+  "effect": "adds a large critical strike and heavy attack damage",
+  "counters": [],
+  "provides": [
+   "critical-strike",
+   "attack-damage"
+  ],
+  "situational": false
+ },
+ "item_butterfly": {
+  "effect": "adds high attack speed, damage, and evasion against attacks",
+  "counters": [
+   "physical"
+  ],
+  "provides": [
+   "attack-speed",
+   "attack-damage",
+   "survivability"
+  ],
+  "situational": false
+ },
+ "item_skadi": {
+  "effect": "adds a large health and mana pool and slows whatever the carrier attacks while cutting its healing",
+  "counters": [
+   "healing",
+   "high-mobility"
+  ],
+  "provides": [
+   "survivability",
+   "mana-pool",
+   "attack-damage"
+  ],
+  "situational": false
+ },
+ "item_echo_sabre": {
+  "effect": "adds two quick attacks that slow the target, plus mana regeneration",
+  "counters": [],
+  "provides": [
+   "attack-speed",
+   "mana-sustain",
+   "attack-damage"
+  ],
+  "situational": false
+ },
+ "item_harpoon": {
+  "effect": "pulls the carrier to a fleeing target and adds attack speed and damage",
+  "counters": [
+   "high-mobility",
+   "blink-escape"
+  ],
+  "provides": [
+   "mobility",
+   "attack-speed",
+   "attack-damage"
+  ],
+  "situational": true
+ },
+ "item_helm_of_the_dominator": {
+  "effect": "takes control of a neutral creep and gives the team lifesteal",
+  "counters": [],
+  "provides": [
+   "summon-scaling",
+   "lifesteal",
+   "attack-speed"
+  ],
+  "situational": false
+ },
+ "item_meteor_hammer": {
+  "effect": "channels a falling meteor that stuns and burns an area, and damages structures",
+  "counters": [],
+  "provides": [
+   "wave-clear",
+   "extra-disable",
+   "cast-range"
+  ],
+  "situational": false
+ },
+ "item_aghanims_shard": {
+  "effect": "grants an extra ability or upgrades an existing one",
+  "counters": [],
+  "provides": [
+   "ultimate-upgrade"
+  ],
+  "situational": false
+ }
+}
